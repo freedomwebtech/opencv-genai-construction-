@@ -43,7 +43,7 @@ def process_image(image, area_name):
                 "HTTP-Referer": "<YOUR_SITE_URL>",  # Optional for OpenRouter rankings
                 "X-Title": "<YOUR_SITE_NAME>",      # Optional for OpenRouter rankings
             },
-            model="google/gemini-2.0-flash-lite-preview-02-05:free",
+            model="google/gemini-exp-1206:free",
             messages=[
                 {
                     "role": "user",
